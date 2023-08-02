@@ -92,7 +92,7 @@ const EditorPage = () => {
     }
 
     return (
-        <div className="mainWrap">
+        <div className="mainWrap" style={{backgroundColor:"black"}}>
             <div className="aside">
                 <div className="asideInner">
                     <div className="logo">
@@ -112,14 +112,14 @@ const EditorPage = () => {
                         ))}
                     </div>
                 </div>
-                <button className="btn copyBtn" onClick={copyRoomId}>
-                    Copy ROOM ID
+                <button className="btn copyBtn" onClick={copyRoomId} style={{backgroundColor:"#0a0a0af9"}}>
+                    <span style={{color:"white"}}>Copy ROOM ID</span>
                 </button>
                 <button className="btn leaveBtn" onClick={leaveRoom}>
-                    Leave
+                    <span style={{color:"white"}}>Leave</span>
                 </button>
             </div>
-            <div className="editorWrap">
+            <div className="editorWrap" style={{backgroundColor:"black"}}>
                 <Editor
                     socketRef={socketRef}
                     roomId={roomId}

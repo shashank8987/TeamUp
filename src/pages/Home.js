@@ -35,8 +35,8 @@ const Home = () => {
         }
     };
     return (
-        <div className="homePageWrapper">
-            <div className="formWrapper">
+        <div className="homePageWrapper" style={{backgroundColor:"black"}}>
+            <div className="formWrapper" style={{backgroundColor:"rgba(66, 66, 66, 0.801)"}}>
                 <img
                     className="homePageLogo"
                     src="/code-sync.png"
@@ -61,7 +61,7 @@ const Home = () => {
                         onKeyUp={handleInputEnter}
                     />
                     <button className="btn joinBtn" onClick={joinRoom}>
-                        Join
+                       <span style={{color:"whitesmoke"}}>JOIN</span>
                     </button>
                     <span className="createInfo">
                         If you don't have an invite then create &nbsp;
@@ -70,15 +70,15 @@ const Home = () => {
                             href=""
                             className="createNewBtn"
                         >
-                            new room
+                            New Room
                         </a>
                     </span>
                 </div>
             </div>
             <footer>
                 <h4>
-                    Built with 💛 &nbsp; by &nbsp;
-                    <a href="https://github.com/codersgyan">Coder's Gyan</a>
+                    Copyright &copy;
+                    <a href="https://github.com/shashank8987"> Shashank Shekhar</a>
                 </h4>
             </footer>
         </div>
