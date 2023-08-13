@@ -7,7 +7,7 @@
 ## Introduction:
 - Team up is a realtime code editor where users can create the room and other users can join the room using the unique roomID.
 
-- With user-friendly interfaces, users can type/edit the code in the editor and all the users joined in the room will see the changes in realtime.
+- With user-friendly interfaces, users can type/edit the code in the editor and all the users connected in the room will see the changes in realtime.
 
 ## Installation
 
