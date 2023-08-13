@@ -35,7 +35,7 @@ npm start
 
 ## Screenshots:
 
-- **Home Page provide users with a form where user can enter the roomID and username and join the pre-existing room**
+- **Home Page provide users with a form where user can enter the roomID and username to join the pre-existing room**
 
 ![i1](./images/p1.png)
 <br/>
